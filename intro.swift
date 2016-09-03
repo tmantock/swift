@@ -49,10 +49,21 @@ for item in array {
   println(item)
 }
 
+var cards = ["Jack" : 11, "Queen" : 12, "King" : 13]
+
 if cardValue == 11 {
 	println("Jack")
 } else if cardValue == 12 {
 	println("Queen")
 } else {
 	println("Not found")
+}
+
+switch cardValue {
+	case 11:
+		println("Jack")
+	case 12:
+		println("Queen")
+	default:
+		println("Not found")
 }
