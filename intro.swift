@@ -40,3 +40,11 @@ do {
   println(message)
   message = "Downloading..."
 } while !complete
+
+for var i = 1; i < array.count; ++i {
+  println(array[i])
+}
+
+for item in array {
+  println(item)
+}
