@@ -32,3 +32,11 @@ array[2..<5] = ["Enough with the sadness"]
 
 //disctionary (objects in swift)
 var user = ["name" : "Tevin", age : 22]
+
+//iteration in Swift
+var message = "Start Downloading"
+
+do {
+  println(message)
+  message = "Downloading..."
+} while !complete
