@@ -48,3 +48,11 @@ for var i = 1; i < array.count; ++i {
 for item in array {
   println(item)
 }
+
+if cardValue == 11 {
+	println("Jack")
+} else if cardValue == 12 {
+	println("Queen")
+} else {
+	println("Not found")
+}
